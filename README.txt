@@ -1,4 +1,3 @@
-Archivo inicial
 cambio en readme
 realizados en la rama1
 otra linea
@@ -8,3 +7,6 @@ agregado desde github
 nuevo 2
 nuevo 3
 nuevo 4
+
+Indice
+1 - Intro
