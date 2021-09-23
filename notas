@@ -8,8 +8,8 @@ git push origin --delete rama_a_borrar
 
  git log --oneline --graph --color --all --decorate
 
-
-* CREAR UNA RAMA NUEVA den el repositorio local
+-------------------------------------------------------------
+* CREAR UNA RAMA NUEVA en el repositorio local
 # Método de 2 pasos
 git branch NOMBRE-NUEVA-RAMA
 git checkout NOMBRE-NUEVA-RAMA
@@ -17,7 +17,7 @@ git checkout NOMBRE-NUEVA-RAMA
 * CREAR UNA RAMA NUEVA densde el repositorio local en el repositorio remoto
 git push repositorio_remoto nombre_de_la_rama_a_crear
 
-
+----------------------------------------------------------------------
 # Atajo
 git checkout -b NOMBRE-NUEVA-RAMA
 
