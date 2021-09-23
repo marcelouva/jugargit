@@ -47,3 +47,4 @@ git checkout rama_remota
 git switch -c rama_creada_desde_github (crea la rama local en base a la remota obtenida con git fetch)
 
 git switch - (deshace la operación de git checkout)
+
