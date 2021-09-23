@@ -25,6 +25,9 @@ git diff PRIMERA-RAMA..SEGUNDA-RAMA
 git fech
 
 git rebase
+----
+
+Linea agregada desde la rama master
     
 
 
