@@ -34,3 +34,16 @@ git rebase
 
 Linea agregada desde la rama master
  
+-------------------------
+
+Para actualizar un repositorio se puede hacer
+
+git fech ( esto trae los cambios pero no los fusiona a los cambios locales)
+
+git branc -r (lista las ramas remotas que puedan haberse descargado con el git fetch)
+
+git checkout rama_remota 
+
+git switch -c rama_creada_desde_github (crea la rama local en base a la remota obtenida con git fetch)
+
+git switch - (deshace la operación de git checkout)
