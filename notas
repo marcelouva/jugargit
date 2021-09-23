@@ -1,16 +1,22 @@
 
-Borrar una branch desde el repositorio local en el repo remoto
+* Borrar una branch desde el repositorio local en el repo remoto
 
  git push <remote> --delete <branch>
+
+git push origin --delete rama_a_borrar
 
 
  git log --oneline --graph --color --all --decorate
 
 
-CREAR UNA RAMA NUEVA
+* CREAR UNA RAMA NUEVA den el repositorio local
 # Método de 2 pasos
 git branch NOMBRE-NUEVA-RAMA
 git checkout NOMBRE-NUEVA-RAMA
+
+* CREAR UNA RAMA NUEVA densde el repositorio local en el repositorio remoto
+git push repositorio_remoto nombre_de_la_rama_a_crear
+
 
 # Atajo
 git checkout -b NOMBRE-NUEVA-RAMA
@@ -25,7 +31,7 @@ git diff PRIMERA-RAMA..SEGUNDA-RAMA
 git fech
 
 git rebase
-    
+
 
 
 
