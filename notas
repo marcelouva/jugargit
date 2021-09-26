@@ -1,0 +1,53 @@
+
+* Borrar una branch desde el repositorio local en el repo remoto
+
+ git push <remote> --delete <branch>
+
+git push origin --delete rama_a_borrar
+
+
+ git log --oneline --graph --color --all --decorate
+
+-------------------------------------------------------------
+* CREAR UNA RAMA NUEVA en el repositorio local
+# Método de 2 pasos
+git branch NOMBRE-NUEVA-RAMA
+git checkout NOMBRE-NUEVA-RAMA
+
+* CREAR UNA RAMA NUEVA densde el repositorio local en el repositorio remoto
+git push repositorio_remoto nombre_de_la_rama_a_crear
+
+----------------------------------------------------------------------
+# Atajo
+git checkout -b NOMBRE-NUEVA-RAMA
+
+
+Comparar Ramas
+Puedes comparar ramas con el comando git diff:
+
+git diff PRIMERA-RAMA..SEGUNDA-RAMA
+
+
+git fech
+
+git rebase
+
+Linea agregada desde la rama master
+ 
+-------------------------
+
+Para actualizar un repositorio se puede hacer
+
+git fech ( esto trae los cambios pero no los fusiona a los cambios locales)
+
+git branch -r (lista las ramas remotas que puedan haberse descargado con el git fetch)
+
+git checkout -b origin/rama_remota 
+git merge origin/rama_remota
+
+
+
+git switch -c rama_creada_desde_github (crea la rama local en base a la remota obtenida con git fetch)
+
+git switch - (deshace la operación de git checkout)
+
